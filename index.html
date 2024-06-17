@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROJECT COFFEE</title>
+
+    <!-- fonts: https://fonts.google.com/ -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- icons: https://feathericons.com/ satu lagi script nya di bawah-->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Photo's -->
+    <!-- https://unsplash.com/ -->
+
+    <!-- style -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body>
+    <!-- navbar start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">PROJECT <span>COFFE</span></a>
+
+      <div class="navbar-nav">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#menu">MENU</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"> <i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart"> <i data-feather="shopping-cart"></i></a>
+        <a href="#" id="hamburger-menu"> <i data-feather="menu"></i></a>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- hero section start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Nikmati malam harimu dengan <br /><span>kopi kami</span></h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet vero
+          perferendis, illum, esse libero dicta sapiente.
+        </p>
+        <a href="" class="cta">Beli Sekarang</a>
+      </main>
+    </section>
+    <!-- hero section end -->
+
+    <!-- about section -->
+    <section id="about" class="about">
+      <h2>Tentang <span>Kami</span></h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="img/about.jpg" alt="about" />
+        </div>
+
+        <div class="content">
+          <h3>Kenapa Kopi Kami?</h3>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id
+            deleniti dolorem repellendus tempora doloremque?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
+            mollitia iusto itaque aliquam consequuntur provident ut debitis
+            maiores dolorem suscipit.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- menu section -->
+    <section id="menu" class="menu">
+      <h2>Menu <span>Kami</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id deleniti
+        dolorem repellendus tempora doloremque?
+      </p>
+
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/1.jpg" alt="cappucino" class="menu-card-title" />
+          <h4 class="menu-card-title">Cappucino</h4>
+          <p class="menu-card-price">Rp. 25.000</p>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/1.jpg" alt="cappucino" class="menu-card-title" />
+          <h4 class="menu-card-title">Cappucino</h4>
+          <p class="menu-card-price">Rp. 25.000</p>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/1.jpg" alt="cappucino" class="menu-card-title" />
+          <h4 class="menu-card-title">Cappucino</h4>
+          <p class="menu-card-price">Rp. 25.000</p>
+        </div>
+
+        <div class="menu-card">
+          <img src="img/1.jpg" alt="cappucino" class="menu-card-title" />
+          <h4 class="menu-card-title">Cappucino</h4>
+          <p class="menu-card-price">Rp. 25.000</p>
+        </div>
+      </div>
+    </section>
+    <!-- menu section end -->
+
+    <!-- contact section -->
+    <section id="contact" class="contact">
+      <h2>Kontak <span>Kami</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id deleniti
+        dolorem repellendus tempora doloremque?
+      </p>
+
+      <div class="row">
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.5524407501025!2d106.84081167475034!3d-6.190590493797005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f5340bacdf01%3A0x8e616a9aa54fe3c7!2sFood%20Court%20Container%20Raden%20Saleh!5e0!3m2!1sid!2sid!4v1718629768379!5m2!1sid!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="Nomor HP" />
+          </div>
+
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+
+      <div class="links">
+        <a href="#home">HOME</a>
+        <a href="#about">ABOUT</a>
+        <a href="#menu">MENU</a>
+        <a href="#contact">CONTACT</a>
+      </div>
+
+      <div class="credit">
+        <p>
+          Created By
+          <a
+            href="https://www.youtube.com/watch?v=MCVkMmYL-aY&list=PLFIM0718LjIWaNi4oDdN49FTlznrWU9w2"
+            >Sandhika Galih</a
+          >
+          | 2024
+        </p>
+      </div>
+    </footer>
+    <!-- footer -->
+
+    <!-- lanjutan untuk icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
