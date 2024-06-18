@@ -32,14 +32,50 @@
         <a href="#home">HOME</a>
         <a href="#about">ABOUT</a>
         <a href="#menu">MENU</a>
+        <a href="#products">PRODUCT</a>
         <a href="#contact">CONTACT</a>
       </div>
 
       <div class="navbar-extra">
-        <a href="#" id="search"> <i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart"> <i data-feather="shopping-cart"></i></a>
+        <a href="#" id="search-btn"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-btn"
+          ><i data-feather="shopping-cart"></i
+        ></a>
         <a href="#" id="hamburger-menu"> <i data-feather="menu"></i></a>
       </div>
+
+      <!-- form search -->
+      <div class="search-form">
+        <input
+          type="search"
+          id="search-box"
+          placeholder="search something..."
+        />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- form search end -->
+
+      <!-- shopping cart -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/product/product1.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">Rp. 30.000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+
+        <div class="cart-item">
+          <img src="img/product/product1.jpg" alt="Product 1" />
+          <div class="item-detail">
+            <h3>Product 1</h3>
+            <div class="item-price">Rp. 30.000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- shopping cart end -->
     </nav>
     <!-- navbar end -->
 
@@ -117,6 +153,64 @@
     </section>
     <!-- menu section end -->
 
+    <!-- products section -->
+    <section class="products" id="products">
+      <h2>Produk <span>Kami</span></h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id deleniti
+        dolorem repellendus tempora doloremque?
+      </p>
+
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-img">
+            <img src="img/product/product1.jpg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>Coffe Bean 1</h3>
+          </div>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">Rp. 30.000 <span>Rp. 55.000</span></div>
+        </div>
+
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-img">
+            <img src="img/product/product1.jpg" alt="Product 2" />
+          </div>
+          <div class="product-content">
+            <h3>Coffe Bean 113</h3>
+          </div>
+          <div class="product-stars">
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star" class="star-full"></i>
+            <i data-feather="star"></i>
+            <i data-feather="star"></i>
+          </div>
+          <div class="product-price">Rp. 750.000 <span>Rp. 108.000</span></div>
+        </div>
+      </div>
+    </section>
+    <!-- products section end -->
+
     <!-- contact section -->
     <section id="contact" class="contact">
       <h2>Kontak <span>Kami</span></h2>
@@ -183,6 +277,35 @@
       </div>
     </footer>
     <!-- footer -->
+
+    <!-- Modal box Item Detail -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-icon"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/product/product1.jpg" alt="Product 1" />
+          <div class="product-content">
+            <h3>Coffe Bean 1</h3>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
+              quisquam suscipit facilis repellendus quam, in totam aspernatur?
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">Rp. 30.000 <span>Rp. 55.000</span></div>
+            <a href="#"
+              ><i data-feather="shopping-cart"></i> <span>add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Modal box Item Detail end -->
 
     <!-- lanjutan untuk icons -->
     <script>
